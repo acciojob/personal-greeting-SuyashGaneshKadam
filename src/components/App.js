@@ -8,6 +8,7 @@ const App = () => {
     <div>
       {/* Do not remove the main div */}
       {/* <p>Enter your name:</p> */}
+      <p></p>
       <input onChange={(e) => { setName(e.target.value.trim()) }} />
       {
         name.trim() && (
